@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #78A2CC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'PT Serif', serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card{
+    background: whitesmoke;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.food-1{
+    background-image: url('nasikebuli.jpg');
+}
+
+.food-2{
+    background-image: url('satekambing.jpg');
+}
+
+.food-3{
+    background-image: url('mieayam.jpg');
+}
+
+.food-4{
+    background-image: url('lotek.jpg');
+}
+
+.food-5{
+    background-image: url('soto.jpg');
+}
+
+.food-6{
+    background-image: url('surabi.jpg');
+}
+.food-7{
+    background-image: url('food7.jpg');
+}
+
+.food-8{
+    background-image: url('food8.jpeg');
+}
+
+.food-9{
+    background-image: url('food9.jpg');
+}
+
+.food-10{
+    background-image: url('food10.jpg');
+}
+
+.food-11{
+    background-image: url('food11.jpg');
+}
+
+.food-12{
+    background-image: url('food12.jpg');
+}
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    display: block;
+    width: 100%;
+    text-align:center;
+    text-decoration: none;
+    background-color: #779ECB;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.card:hover{
+    background-color: #96B9D0;
+    color: white;
+    border-width: 3px;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 70px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav .logo{
+    font-family: 'Caveat', cursive;
+    display: flex;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 40px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    margin-top: 20px;
+}
